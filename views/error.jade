@@ -1,0 +1,14 @@
+
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+    script(href='/javascripts/main.js')
+  body
+    h1= message
+  h2= error.status
+  pre #{error.stack}
+
+
+

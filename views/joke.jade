@@ -1,0 +1,25 @@
+
+doctype html
+html
+  head
+    title= title
+    <meta charset="utf-8" />
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header  
+      a(href="/random") Random joke
+      br
+      a(href="/") Search for a joke
+    br
+    h1 Joke
+    p(class="joke-display") joke text
+    button(class="copy-btn") Copy Joke
+    br
+    br
+    footer  
+      a(href="/random") Random joke
+      br
+      a(href="/") Search for a joke
+    br
+
+    script(src='/javascripts/joke.js', type="module")

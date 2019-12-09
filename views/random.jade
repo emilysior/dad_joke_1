@@ -1,0 +1,27 @@
+
+doctype html
+html
+  head
+    title= title
+    <meta charset="utf-8" />
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header  
+      a(href="/random") Random joke
+      br
+      a(href="/") Search for a joke
+    br
+    h1 Random joke
+    p Get a random joke by clicking below
+    div 
+      button(type='button' class="random-btn") Get a joke!
+      p(class="joke-text") 
+    br
+    footer  
+      a(href="/random") Random joke
+      br
+      a(href="/") Search for a joke
+    br
+
+
+    script(src='/javascripts/random.js', type="text/javascript")

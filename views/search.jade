@@ -1,0 +1,33 @@
+
+doctype html
+html
+  head
+    title= title
+    <meta charset="utf-8" />
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    header  
+      a(href="/random") Random joke
+      br
+      a(href="/") Search for a joke
+    br
+    h1 Search for a Joke
+    p Search for a dad joke by entering text below 
+    div 
+      input(type='text', class='search-input')
+      button(type='button', href='/search-jokes' class="search-btn") Search
+    br
+    div(class="search-results hidden")
+      button(class="next-btn" type="button") Next Page
+      button(class="prev-btn" type="button") Prev Page
+      div(class="results")
+    br
+    footer  
+      a(href="/random") Random joke
+      br
+      a(href="/") Search for a joke
+
+
+    script(src='/javascripts/search.js', type="module")
+
+
