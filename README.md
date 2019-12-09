@@ -1,1 +1,3 @@
-# dad_joke_1
+To start:
+  npm install
+  npm start
